@@ -1,0 +1,124 @@
+.header {
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+
+width: 2000px;
+height: 1000px;
+background: url(./background\ 1.png);
+}
+
+.input {
+    border: none;
+  outline: none;
+}
+
+.header_search {
+    width: 72,58%;
+    height: 150%.;
+    
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+width: 50%;
+height: 250px;
+max-width: 100%;
+}
+
+.img__logo {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 200px;
+    
+    
+}
+
+.background {
+    width: 100px;
+    height: 100%; 
+  
+    background-color: url();no-repeat center
+  }
+  
+  .header_block {
+    height: 139px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content; space-between;
+    padding:0 203px 0 182px;
+    aline-items:
+  }
+
+  
+  .header_logo_block {
+    width: 974px;
+    height: 69px;
+    background-color: red;
+  }
+
+  .header_logo_block {
+    width: 146px;
+    height: 96px;
+    background-color: red;
+  }
+
+  .header_searchIcons_block {
+   display: flex;
+   justify-content: space-between;
+    width: 974px;
+    height: 69px;
+    background-color: red;
+  }
+  .header_search,header_basketProfile_block {
+    width: 974px;
+    height: 69px;
+    background-color: red;
+  }
+
+  .header_logo_icon {
+    width: 1003px;
+    height: 69px;
+  }
+
+ .header_search_input {
+  border-radius: 25px;
+  width: 100%;
+  height:100%;
+  padding: 20px 0 20px 90px;
+  background: rgba( rgba, 217, 217, 0.5) url(суретти ссылкасын коямыз лупаны) no-repeat 20px 16px;
+ 
+ // астына коширип жазамыз сайттан алып инпуттын 
+
+ }
+
+ .header_icons {
+    width: 82px;
+    height: 96px;
+    background-color: blueviolet ;
+    padding: 7 11 8;
+ }
+
+ .header_search_dropdown {
+  position: absolute;
+  width: 100%;
+ }
+
+ .searsh_options {
+  margin: 0;
+  width: 100%;
+  background-color: rgba( rgba, 0, 0, 0, 0.75);
+  padding: 15px 0 25px 90px;
+  color: #fff;
+
+ }
+
+ .search_options:hover {
+  background-color: ( rgba, 13, 13, 13, 0.5);
+  transition:background-color linear .25s
+ }
